@@ -66,9 +66,9 @@ The project includes a `vercel.json` file configured for Vercel deployment:
 
 ```json
 {
-  "buildCommand": "cd client && npm install && npm run build",
+  "buildCommand": "cd client && yarn install && yarn build",
   "outputDirectory": "client/dist",
-  "installCommand": "cd client && npm install",
+  "installCommand": "cd client && yarn install",
   "framework": "vite",
   "rewrites": [
     {
