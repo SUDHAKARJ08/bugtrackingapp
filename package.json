@@ -1,0 +1,16 @@
+{
+  "name": "pavakie",
+  "version": "1.0.0",
+  "description": "Pavakie bug tracking system",
+  "scripts": {
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SUDHAKARJ08/Pavakie_project.git"
+  },
+  "keywords": ["bug-tracking", "kanban", "project-management"],
+  "author": "",
+  "license": "ISC"
+}
+
