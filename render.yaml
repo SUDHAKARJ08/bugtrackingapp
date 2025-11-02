@@ -2,7 +2,7 @@ services:
   - type: web
     name: pavakie-frontend
     env: static
-    buildCommand: cd client && yarn install && yarn build
+    buildCommand: yarn build
     staticPublishPath: ./client/dist
     pullRequestPreviewEnabled: true
     envVars:
